@@ -38,7 +38,7 @@ Obs: Para usar o css abaixo, você deve construir seu projeto com variavéis CSS
 ```
 ------------
 
-4. Inicialize o ToggleButton no:
+4. Inicialize o ToggleButton:
 
 
 ```html
