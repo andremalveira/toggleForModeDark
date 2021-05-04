@@ -50,3 +50,15 @@ ou
 ```javascript
 toggleForModeDark();
 ```
+
+------------
+
+# - Opções do ToggleButton:
+
+|  Opçoes | Tipo  | Padrão  | Descrição  |
+| ------------ | ------------ | ------------ | ------------ |
+|  id: | text  | "#toggleButton"  | Altera o id do ToggleButton  |
+|  toggleSize: | number  | 4  | Altera o tamanho do ToggleButton  |
+| dotColor:  |  text | "#fff"  | Altera a cor do dot do ToggleButton  |
+| activatedBackground:  |  text | "#192351"  | Altera a cor de fundo quando ativado  |
+|  disabledBackground: | text  | "#f6ca69"  |  Altera a cor de fundo quando desativado |
