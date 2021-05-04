@@ -12,7 +12,6 @@
 
 Obs: Para usar o css abaixo, você deve construir seu projeto com variavéis CSS.
 
-CSS　
 ```css
 :root{
   /*Aqui coloque as variáveis de cor do tema Padrão/Light*/
@@ -28,14 +27,11 @@ CSS　
 ------------
 2. Adicione a Marcação HTML:
 
-HTML 
 ```html
 <div id="toggleButton"></div>
 ```
 ------------
  3. Adicione o JavaScript antes da tag  /body:
-
-HTML　
 
 ```html
 <script src="togglemodedark.js"></script>     
@@ -45,10 +41,12 @@ HTML　
 4. Inicialize o ToggleButton no:
 
 
-
-HTML　```html
+```html
 <script>toggleForModeDark();</script>
 ```
-Javascript ```javascript
+
+ou
+
+```javascript
 toggleForModeDark();
 ```
