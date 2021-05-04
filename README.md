@@ -36,8 +36,7 @@ HTML
 HTML　
 
 ```html
-<script src="togglemodedark.js"></script>
-        
+<script src="togglemodedark.js"></script>     
 ```
 ------------
 
