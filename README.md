@@ -62,3 +62,20 @@ toggleForModeDark();
 | dotColor:  |  text | "#fff"  | Altera a cor do dot do ToggleButton  |
 | activatedBackground:  |  text | "#192351"  | Altera a cor de fundo quando ativado  |
 |  disabledBackground: | text  | "#f6ca69"  |  Altera a cor de fundo quando desativado |
+
+
+####Exemplos:
+
+```javascript
+//Alterando o Tamanho do ToggleButton
+	toggleForModeDark({
+	toggleSize:40
+});
+
+//Alterando o tamanho e as cores de fundo do ToggleButton
+toggleForModeDark({
+	toggleSize:40,
+	activatedBackground:"#eee",
+	disabledBackground:"#333",
+});
+```
