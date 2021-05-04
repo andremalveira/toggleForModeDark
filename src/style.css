@@ -2,12 +2,14 @@
 
 :root {
   --bg-color: #eee;
+  --hover: #161625;
   --h1: #222;
   --line: #c8c8c8;
 }
 
 [data-theme=dark] {
   --bg-color: #161625;
+  --hover: #eee;
   --h1: #eee;
   --line: #2a2a2a;
 }
@@ -25,6 +27,28 @@
 ::-webkit-scrollbar-thumb {
   background: var( --h1);
   border-radius: 2px;
+}
+
+.social {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  font-size: 1.5rem;
+}
+.social a {
+  color: var(--h1);
+  transition: ease 0.5s;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+.social a:hover {
+  opacity: 1;
+}
+.social a:last-child {
+  margin-right: 0.4rem;
+}
+.social i {
+padding: 0.2rem;
 }
 
 
