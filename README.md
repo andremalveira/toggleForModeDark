@@ -27,12 +27,14 @@ CSS　
 ```
 ------------
 2. Adicione a Marcação HTML:
+
 HTML 
 ```html
 <div id="toggleButton"></div>
 ```
 ------------
  3. Adicione o JavaScript antes da tag  /body:
+
 HTML　
 
 ```html
@@ -41,12 +43,14 @@ HTML　
 ------------
 
 4. Inicialize o ToggleButton no:
+
 HTML　
 
 ```html
 <script>toggleForModeDark();</script>
 ```
 OU
+
 Javascript
 ```javascript
 toggleForModeDark();
