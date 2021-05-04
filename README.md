@@ -68,7 +68,7 @@ toggleForModeDark();
 
 ```javascript
 //Alterando o Tamanho do ToggleButton
-	toggleForModeDark({
+toggleForModeDark({
 	toggleSize:40
 });
 
