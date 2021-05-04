@@ -44,14 +44,11 @@ HTML　
 
 4. Inicialize o ToggleButton no:
 
-HTML　
 
-```html
+
+HTML　```html
 <script>toggleForModeDark();</script>
 ```
-OU
-
-Javascript
-```javascript
+Javascript ```javascript
 toggleForModeDark();
 ```
