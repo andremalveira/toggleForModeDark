@@ -8,246 +8,247 @@
   <link rel="shortcut icon" href="src/favicon.png" type="image/x-icon">
   <title>Toggle for Mode Dark .js</title>
 </head>
-  <header>
-    <h1>Toggle for Mode Dark .js</h1>
-    <div id="toggleButton"></div>
-  </header>
-  <main>
-    <div class="boxCode">
-      <h1>1. Inclua o código CSS no início do seu arquivo css: </h1>
-      <p>Obs: Para usar o css abaixo, você deve construir seu projeto com 
-        <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_custom_properties" target="_blank"> 
-          variavéis CSS.
-        </a> 
-      </p>
-      <code>
-        <div class="countrow"></div>
-        <div class="rows">
-          <div class="row">
-            <span style="color: #ddb463;">:root</span>
-            <span style="color: #eee">{</span>
+  <body>
+    <header>
+      <h1>Toggle for Mode Dark .js</h1>
+      <div id="toggleButton"></div>
+    </header>
+    <main>
+      <div class="boxCode">
+        <h1>1. Inclua o código CSS no início do seu arquivo css: </h1>
+        <p>Obs: Para usar o css abaixo, você deve construir seu projeto com 
+          <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_custom_properties" target="_blank"> 
+            variavéis CSS.
+          </a> 
+        </p>
+        <code>
+          <div class="countrow"></div>
+          <div class="rows">
+            <div class="row">
+              <span style="color: #ddb463;">:root</span>
+              <span style="color: #eee">{</span>
+            </div>
+            <div class="row">
+              <span style="color: #818181;">/*Aqui coloque as variáveis de cor do tema Padrão/Light*/</span>
+            </div>
+            <div class="row">
+              <span style="color: #7cdeff;">--background</span>
+              <span style="color: #eee">:</span>
+              <span style="color: #d79a60;">#eee</span>
+              <span style="color: #eee">;</span>
+            </div>
+            <div class="row">
+              <span style="color: #7cdeff;">--text</span>
+              <span style="color: #eee">:</span>
+              <span style="color: #d79a60;">#222</span>
+              <span style="color: #eee">;</span>
+            </div>
+            <div class="row">
+              <span style="color: #eee">}</span>
+            </div>
+            <br>
+            <div class="row">
+              <span style="color: #eee">[</span>
+              <span style="color: #7cdeff;">data-theme</span>
+              <span style="color: #eee">=</span>
+              <span style="color: #d79a60;">dark</span>
+              <span style="color: #eee">]{</span>
+            </div>
+            <div class="row">
+              <span style="color: #818181;">/*Aqui coloque as variáveis de cor do tema Dark*/</span>
+            </div>
+            <div class="row">
+              <span style="color: #7cdeff;">--background</span>
+              <span style="color: #eee">:</span>
+              <span style="color: #d79a60;">#161625</span>
+              <span style="color: #eee">;</span>
+            </div>
+            <div class="row">
+              <span style="color: #7cdeff;">--text</span>
+              <span style="color: #eee">:</span>
+              <span style="color: #d79a60;">#eee</span>
+              <span style="color: #eee">;</span>
+            </div>
+            <div class="row">
+              <span style="color: #eee">}</span>
+            </div>
           </div>
-          <div class="row">
-            <span style="color: #818181;">/*Aqui coloque as variáveis de cor do tema Padrão/Light*/</span>
+        </code>
+      </div>
+      <div class="boxCode">
+        <h1>2. Adicione a Marcação HTML:</h1>
+        <code>
+          <div class="countrow"></div>
+          <div class="rows">
+            <div class="row">
+              <span style="color: #a5a4a4;"><</span>
+              <span style="color: #54a0f4;">div&nbsp;</span>
+              <span style="color: #7cdeff;">id</span>
+              <span style="color: #eee">=</span>
+              <span style="color: #d79a60;">"toggleButton"</span>
+              <span style="color: #a5a4a4;">></span>
+              <span style="color: #a5a4a4;"><</span>
+              <span style="color: #a5a4a4;">/</span>
+              <span style="color: #54a0f4;">div</span>
+              <span style="color: #a5a4a4;">></span>
+            </div>
           </div>
-          <div class="row">
-            <span style="color: #7cdeff;">--background</span>
-            <span style="color: #eee">:</span>
-            <span style="color: #d79a60;">#eee</span>
-            <span style="color: #eee">;</span>
+        </code>
+      </div>
+      <div class="boxCode">
+        <h1>3. Adicione o JavaScript antes da tag  /body:</h1>
+        <code>
+          <div class="countrow"></div>
+          <div class="rows">
+            <div class="row">
+              <span style="color: #a5a4a4;"><</span>
+              <span style="color: #54a0f4;">script</span>
+              <span style="color: #7cdeff;"> src</span>
+              <span style="color: #a5a4a4;">=</span>
+              <span style="color: #d79a60;">"</span>
+              <span style="color: #d79a60;text-decoration: underline;">togglemodedark.js</span>
+              <span style="color: #d79a60;">"</span>
+              <span style="color: #a5a4a4;">></span>
+              <span style="color: #a5a4a4;"><</span>
+              <span style="color: #a5a4a4;">/</span>
+              <span style="color: #54a0f4;">script</span>
+              <span style="color: #a5a4a4;">></span>
+            </div>
           </div>
-          <div class="row">
-            <span style="color: #7cdeff;">--text</span>
-            <span style="color: #eee">:</span>
-            <span style="color: #d79a60;">#222</span>
-            <span style="color: #eee">;</span>
+        </code>
+      </div>
+      <div class="boxCode">
+        <h1>4. Inicialize o ToggleButton:</h1>
+        <code>
+          <div class="countrow"></div>
+          <div class="rows">
+            <div class="row">
+              <span style="color: #a5a4a4;"><</span>
+              <span style="color: #54a0f4;">script</span>
+              <span style="color: #a5a4a4;">></span>
+              <span style="color: #f0f3aa;">toggleForModeDark</span>
+              <span style="color: #eee">();</span>
+              <span style="color: #a5a4a4;"><</span>
+              <span style="color: #a5a4a4;">/</span>
+              <span style="color: #54a0f4;">script</span>
+              <span style="color: #a5a4a4;">></span>
+            </div>
           </div>
-          <div class="row">
-            <span style="color: #eee">}</span>
-          </div>
-          <br>
-          <div class="row">
-            <span style="color: #eee">[</span>
-            <span style="color: #7cdeff;">data-theme</span>
-            <span style="color: #eee">=</span>
-            <span style="color: #d79a60;">dark</span>
-            <span style="color: #eee">]{</span>
-          </div>
-          <div class="row">
-            <span style="color: #818181;">/*Aqui coloque as variáveis de cor do tema Dark*/</span>
-          </div>
-          <div class="row">
-            <span style="color: #7cdeff;">--background</span>
-            <span style="color: #eee">:</span>
-            <span style="color: #d79a60;">#161625</span>
-            <span style="color: #eee">;</span>
-          </div>
-          <div class="row">
-            <span style="color: #7cdeff;">--text</span>
-            <span style="color: #eee">:</span>
-            <span style="color: #d79a60;">#eee</span>
-            <span style="color: #eee">;</span>
-          </div>
-          <div class="row">
-            <span style="color: #eee">}</span>
+        </code>
+      </div>
+      <div class="boxCode">
+        <h1>Personalização do ToggleButton:</h1>
+        <div class="tabmobile">
+          <div class="tab">
+            <div class="tabrow title">
+              <div option>Opções</div>
+              <div type>Tipo</div>
+              <div default>Padrão</div>
+              <div description>Descrição</div>
+            </div>
+            <div class="tabrow infos">
+              <div option>id:</div>
+              <div type text>text</div>
+              <div default text>"#toggleButton"</div>
+              <div description>Altera o id do ToggleButton</div>
+            </div>
+            <div class="tabrow infos">
+              <div option>toggleSize:</div>
+              <div type number>Number</div>
+              <div default number>34</div>
+              <div description>Altera o tamanho do ToggleButton</div>
+            </div>
+            <div class="tabrow infos">
+              <div option>dotColor:</div>
+              <div type text>text</div>
+              <div default text>"#fff"</div>
+              <div description>Altera a cor do dot do ToggleButton</div>
+            </div>
+            <div class="tabrow infos">
+              <div option>activatedBackground:</div>
+              <div type text>text</div>
+              <div default text>"#192351"</div>
+              <div description>Altera a cor de fundo quando ativado</div>
+            </div>
+            <div class="tabrow infos">
+              <div option>disabledBackground:</div>
+              <div type text>text</div>
+              <div default text>"#f6ca69"</div>
+              <div description>Altera a cor de fundo quando desativado</div>
+            </div>
           </div>
         </div>
-      </code>
-    </div>
-    <div class="boxCode">
-      <h1>2. Adicione a Marcação HTML:</h1>
-      <code>
-        <div class="countrow"></div>
-        <div class="rows">
-          <div class="row">
-            <span style="color: #a5a4a4;"><</span>
-            <span style="color: #54a0f4;">div&nbsp;</span>
-            <span style="color: #7cdeff;">id</span>
-            <span style="color: #eee">=</span>
-            <span style="color: #d79a60;">"toggleButton"</span>
-            <span style="color: #a5a4a4;">></span>
-            <span style="color: #a5a4a4;"><</span>
-            <span style="color: #a5a4a4;">/</span>
-            <span style="color: #54a0f4;">div</span>
-            <span style="color: #a5a4a4;">></span>
+
+        <h2>Exemplos:</h2>
+        <code>
+          <div class="countrow"></div>
+          <div class="rows">
+            <div class="row">
+              <span style="color: #818181;">//Alterando o Tamanho do ToggleButton</span>
+            </div>
+            <div class="row">
+              <span style="color: #f0f3aa;">toggleForModeDark</span>
+              <span style="color: #eee">({</span>
+            </div>
+            <div space class="row">
+              <span style="color: #7cdeff;">toggleSize:</span>
+              <span space style="color: #8fc6a5;">40</span>
+            </div>
+            <div class="row">
+              <span style="color: #eee">});</span>
+            </div>
+            <br>
+            <div class="row">
+              <span style="color: #818181;">//Alterando o tamanho e as cores de fundo do ToggleButton</span>
+            </div>
+            <div class="row">
+              <span style="color: #f0f3aa;">toggleForModeDark</span>
+              <span style="color: #eee">({</span>
+            </div>
+            <div space class="row">
+              <span style="color: #7cdeff;">toggleSize:</span>
+              <span space style="color: #8fc6a5;">40</span>
+              <span style="color: #eee">,</span>
+            </div>
+            <div space class="row">
+              <span style="color: #7cdeff;">activatedBackground:</span>
+              <span space style="color: #d79a60;">"#eee"</span>
+              <span style="color: #eee">,</span>
+            </div>
+            <div space class="row">
+              <span style="color: #7cdeff;">disabledBackground:</span>
+              <span space style="color: #d79a60;">"#333"</span>
+              <span style="color: #eee">,</span>
+            </div>
+            <div class="row">
+              <span style="color: #eee">});</span>
+            </div>
           </div>
-        </div>
-      </code>
-    </div>
-    <div class="boxCode">
-      <h1>3. Adicione o JavaScript antes da tag  /body:</h1>
-      <code>
-        <div class="countrow"></div>
-        <div class="rows">
-          <div class="row">
-            <span style="color: #a5a4a4;"><</span>
-            <span style="color: #54a0f4;">script</span>
-            <span style="color: #7cdeff;"> src</span>
-            <span style="color: #a5a4a4;">=</span>
-            <span style="color: #d79a60;">"</span>
-            <span style="color: #d79a60;text-decoration: underline;">togglemodedark.js</span>
-            <span style="color: #d79a60;">"</span>
-            <span style="color: #a5a4a4;">></span>
-            <span style="color: #a5a4a4;"><</span>
-            <span style="color: #a5a4a4;">/</span>
-            <span style="color: #54a0f4;">script</span>
-            <span style="color: #a5a4a4;">></span>
-          </div>
-        </div>
-      </code>
-    </div>
-    <div class="boxCode">
-      <h1>4. Inicialize o ToggleButton:</h1>
-      <code>
-        <div class="countrow"></div>
-        <div class="rows">
-          <div class="row">
-            <span style="color: #a5a4a4;"><</span>
-            <span style="color: #54a0f4;">script</span>
-            <span style="color: #a5a4a4;">></span>
-            <span style="color: #f0f3aa;">toggleForModeDark</span>
-            <span style="color: #eee">();</span>
-            <span style="color: #a5a4a4;"><</span>
-            <span style="color: #a5a4a4;">/</span>
-            <span style="color: #54a0f4;">script</span>
-            <span style="color: #a5a4a4;">></span>
-          </div>
-        </div>
-      </code>
-    </div>
-    <div class="boxCode">
-      <h1>Personalização do ToggleButton:</h1>
-      <div class="tabmobile">
-        <div class="tab">
-          <div class="tabrow title">
-            <div option>Opções</div>
-            <div type>Tipo</div>
-            <div default>Padrão</div>
-            <div description>Descrição</div>
-          </div>
-          <div class="tabrow infos">
-            <div option>id:</div>
-            <div type text>text</div>
-            <div default text>"#toggleButton"</div>
-            <div description>Altera o id do ToggleButton</div>
-          </div>
-          <div class="tabrow infos">
-            <div option>toggleSize:</div>
-            <div type number>Number</div>
-            <div default number>34</div>
-            <div description>Altera o tamanho do ToggleButton</div>
-          </div>
-          <div class="tabrow infos">
-            <div option>dotColor:</div>
-            <div type text>text</div>
-            <div default text>"#fff"</div>
-            <div description>Altera a cor do dot do ToggleButton</div>
-          </div>
-          <div class="tabrow infos">
-            <div option>activatedBackground:</div>
-            <div type text>text</div>
-            <div default text>"#192351"</div>
-            <div description>Altera a cor de fundo quando ativado</div>
-          </div>
-          <div class="tabrow infos">
-            <div option>disabledBackground:</div>
-            <div type text>text</div>
-            <div default text>"#f6ca69"</div>
-            <div description>Altera a cor de fundo quando desativado</div>
-          </div>
-        </div>
+        </code>
       </div>
 
-      <h2>Exemplos:</h2>
-      <code>
-        <div class="countrow"></div>
-        <div class="rows">
-          <div class="row">
-            <span style="color: #818181;">//Alterando o Tamanho do ToggleButton</span>
-          </div>
-          <div class="row">
-            <span style="color: #f0f3aa;">toggleForModeDark</span>
-            <span style="color: #eee">({</span>
-          </div>
-          <div space class="row">
-            <span style="color: #7cdeff;">toggleSize:</span>
-            <span space style="color: #8fc6a5;">40</span>
-          </div>
-          <div class="row">
-            <span style="color: #eee">});</span>
-          </div>
-          <br>
-          <div class="row">
-            <span style="color: #818181;">//Alterando o tamanho e as cores de fundo do ToggleButton</span>
-          </div>
-          <div class="row">
-            <span style="color: #f0f3aa;">toggleForModeDark</span>
-            <span style="color: #eee">({</span>
-          </div>
-          <div space class="row">
-            <span style="color: #7cdeff;">toggleSize:</span>
-            <span space style="color: #8fc6a5;">40</span>
-            <span style="color: #eee">,</span>
-          </div>
-          <div space class="row">
-            <span style="color: #7cdeff;">activatedBackground:</span>
-            <span space style="color: #d79a60;">"#eee"</span>
-            <span style="color: #eee">,</span>
-          </div>
-          <div space class="row">
-            <span style="color: #7cdeff;">disabledBackground:</span>
-            <span space style="color: #d79a60;">"#333"</span>
-            <span style="color: #eee">,</span>
-          </div>
-          <div class="row">
-            <span style="color: #eee">});</span>
-          </div>
-        </div>
-      </code>
+    </main>
+    <div class="line"></div>
+    <h1>Toggle for Mode Dark .js</h1>
+    <div class="button">
+      <a href="https://github.com/andremalveira/toggleForModeDark" target="_blank" >Visualizar no GitHub</a>
+    
+
+      <a href="https://github.com/andremalveira/toggleForModeDark/archive/refs/heads/main.zip" target="_blank" >Download dos Arquivos</a>
     </div>
+    <div class="line"></div>
+    <footer>
+      <span>developed by 
+        <a href="https://github.com/andremalveira" target="_blank">
+          andremalveira
+        </a> 
+      </span>
+    </footer>
+    
+    <script src="src/index.js"></script>
 
-  </main>
-  <div class="line"></div>
-  <h1>Toggle for Mode Dark .js</h1>
-  <div class="button">
-    <a href="https://github.com/andremalveira/toggleForModeDark" target="_blank" >Visualizar no GitHub</a>
-  
-
-    <a href="https://github.com/andremalveira/toggleForModeDark/archive/refs/heads/main.zip" target="_blank" >Download dos Arquivos</a>
-  </div>
-  <div class="line"></div>
-  <footer>
-    <span>developed by 
-      <a href="https://github.com/andremalveira" target="_blank">
-        andremalveira
-      </a> 
-    </span>
-  </footer>
-
-<body>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="src/index.js"></script>
-  <script src="togglemodedark.js"></script>
-  <script>toggleForModeDark();</script>
-</body>
+    <script src="togglemodedark.js"></script>
+    <script>toggleForModeDark();</script>
+    
+  </body>
 </html>
