@@ -1,6 +1,6 @@
 
 
-function toggleForModeDark(configs) {
+function toggleModeDark(configs) {
   configs = configs || {};
   var id           = configs['id'] || '#toggleButton';
   var toggleSize   = configs['toggleSize'] || 34;

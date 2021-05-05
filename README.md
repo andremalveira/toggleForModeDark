@@ -41,13 +41,13 @@
 
 
 ```html
-<script>toggleForModeDark();</script>
+<script>toggleModeDark();</script>
 ```
 
 ou
 
 ```javascript
-toggleForModeDark();
+toggleModeDark();
 ```
 
 ------------
@@ -67,12 +67,12 @@ Exemplos:
 
 ```javascript
 //Alterando o Tamanho do ToggleButton
-toggleForModeDark({
+toggleModeDark({
 	toggleSize:40
 });
 
 //Alterando o tamanho e as cores de fundo do ToggleButton
-toggleForModeDark({
+toggleModeDark({
 	toggleSize:40,
 	activatedBackground:"#eee",
 	disabledBackground:"#333",
