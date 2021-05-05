@@ -13,12 +13,12 @@
 
 ```css
 :root{
-  /*Aqui coloque as variáveis de cor do tema Padrão/Light*/
+  /*Coloque aqui as variáveis de cor do tema Padrão/Light*/
   --background:#eee;
   --text:#222;
 }
 [data-theme=dark]{
-  /*Aqui coloque as variáveis de cor do tema Dark*/
+  /*Coloque aqui as variáveis de cor do tema Dark*/
   --background:#161625;
   --text:#eee;
 }
