@@ -149,33 +149,39 @@
             </div>
             <div class="tabrow infos">
               <div option>id:</div>
-              <div type text>text</div>
+              <div type >Text</div>
               <div default text>"#toggleButton"</div>
               <div description>Altera o id do ToggleButton</div>
             </div>
             <div class="tabrow infos">
               <div option>toggleSize:</div>
-              <div type number>Number</div>
-              <div default number>34</div>
+              <div type>Number</div>
+              <div default number>30</div>
               <div description>Altera o tamanho do ToggleButton</div>
             </div>
             <div class="tabrow infos">
               <div option>dotColor:</div>
-              <div type text>text</div>
+              <div type>Text</div>
               <div default text>"#fff"</div>
               <div description>Altera a cor do dot do ToggleButton</div>
             </div>
             <div class="tabrow infos">
               <div option>activatedBackground:</div>
-              <div type text>text</div>
+              <div type>Text</div>
               <div default text>"#192351"</div>
               <div description>Altera a cor de fundo quando ativado</div>
             </div>
             <div class="tabrow infos">
               <div option>disabledBackground:</div>
-              <div type text>text</div>
+              <div type>Text</div>
               <div default text>"#f6ca69"</div>
               <div description>Altera a cor de fundo quando desativado</div>
+            </div>
+            <div class="tabrow infos">
+              <div option>textLightDark:</div>
+              <div type >Boolean</div>
+              <div default boolean>false</div>
+              <div description>Adiciona o texto Light e Dark no ToggleButton</div>
             </div>
           </div>
         </div>
@@ -253,7 +259,9 @@
     <script src="src/index.js"></script>
 
     <script src="togglemodedark.js"></script>
-    <script>toggleModeDark();</script>
+    <script>toggleModeDark({
+      textLightDark: true
+    });</script>
     
   </body>
 </html>

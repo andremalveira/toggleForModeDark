@@ -203,17 +203,24 @@ main .boxCode code:hover .copy span {opacity: 1;}
 .boxCode .tab .tabrow.infos [option] {
   color: #7cdeff;
 }
-.boxCode .tab .tabrow.infos [type][text],
+.boxCode .tab .tabrow.infos [type] {
+  color: #818181;
+}
+
 .boxCode .tab .tabrow.infos [default][text] {
   color: #d79a60;
 }
-.boxCode .tab .tabrow.infos [type][number],
+
 .boxCode .tab .tabrow.infos [default][number] {
   color: #8fc6a5;
 }
-.boxCode .tab .tabrow.infos [type][attr],
+
 .boxCode .tab .tabrow.infos [default][attr] {
   color: #7cdeff;
+}
+
+.boxCode .tab .tabrow.infos [default][boolean] {
+  color: #54a0f4;
 }
 
 .boxCode .tab .tabrow [description] {

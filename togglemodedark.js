@@ -3,10 +3,11 @@
 function toggleModeDark(configs) {
   configs = configs || {};
   var id           = configs['id'] || '#toggleButton';
-  var toggleSize   = configs['toggleSize'] || 34;
+  var toggleSize   = configs['toggleSize'] || 30;
   var dotColor     = configs['dotColor'] || '#fff';
   var activatedBackground = configs['activatedBackground'] || '#192351';
   var disabledBackground = configs['disabledBackground'] || '#f6ca69';
+  var textLightDark = configs['textLightDark'] || false;
 
   let toggleDark = document.querySelector(id);
     toggleDark
@@ -63,6 +64,20 @@ function toggleModeDark(configs) {
     };
     Object.assign(dot.style, dotStyles);
 
+    if(textLightDark){
+      label.insertAdjacentHTML('beforebegin', `
+      <span style="
+        font-size: ${toggleSize - 11.7}px;
+        margin-right: 0.5rem">
+        Light
+      </span>`);
+      label.insertAdjacentHTML('afterend', `
+      <span style="
+        font-size: ${toggleSize - 11.7}px;
+        margin-left: 0.5rem">
+        Dark
+      </span>`);
+    }
 
     const toggleSwitch = document.querySelector(`${id} input[type="checkbox"]`);
     const currentTheme = localStorage.getItem('theme');
