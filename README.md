@@ -2,7 +2,7 @@
 
  Toggle for Mode Dark .js, é um script que adiciona um botão de alternância para uso do Mode Dark em seu projeto com todas as configurações necessária.
 
-<a href="https://andremalveira.github.io/toggleForModeDark/" target="_blank"> Demo</a>
+<a href="https://andremalveira.github.io/toggleModeDark/" target="_blank"> Demo</a>
 ------------
 
 # - Instalação
