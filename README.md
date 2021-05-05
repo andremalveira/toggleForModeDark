@@ -30,7 +30,7 @@
 <div id="toggleButton"></div>
 ```
 ------------
- 3. Adicione o JavaScript antes da tag  /body:
+ 3. Adicione o JavaScript antes da tag  </body>:
 
 ```html
 <script src="togglemodedark.js"></script>     
