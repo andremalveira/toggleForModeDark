@@ -80,20 +80,22 @@ function toggleModeDark(configs) {
     }
 
     const toggleSwitch = document.querySelector(`${id} input[type="checkbox"]`);
-    const currentTheme = localStorage.getItem('theme');
+    var keyLocalStorage = window.location.host+'/theme';
+    const currentTheme = localStorage.getItem(keyLocalStorage);
+
     var toggleChek = false;
 
     const toggleActive = () => {
       sliderRound.style.backgroundColor=activatedBackground;
       dot.style.transform=`translateX(${toggleSize}px)`;
       document.documentElement.setAttribute('data-theme', 'dark');
-      localStorage.setItem('theme', 'dark');
+      localStorage.setItem(keyLocalStorage, 'dark');
     }
     const toggleDisable = () => {
       sliderRound.style.backgroundColor=disabledBackground;
       dot.style.transform='';
       document.documentElement.setAttribute('data-theme', 'light');
-      localStorage.setItem('theme', 'light');
+      localStorage.setItem(keyLocalStorage, 'light');
     }
 
     if (currentTheme) {
@@ -117,3 +119,4 @@ function toggleModeDark(configs) {
     })
 
 }
+
