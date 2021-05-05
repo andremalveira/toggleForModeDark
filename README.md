@@ -56,11 +56,11 @@ toggleModeDark();
 
 |  Opçoes | Tipo  | Padrão  | Descrição  |
 | ------------ | ------------ | ------------ | ------------ |
-|  id: | text  | "#toggleButton"  | Altera o id do ToggleButton  |
-|  toggleSize: | number  | 30  | Altera o tamanho do ToggleButton  |
-| dotColor:  |  text | "#fff"  | Altera a cor do dot do ToggleButton  |
-| activatedBackground:  |  text | "#192351"  | Altera a cor de fundo quando ativado  |
-|  disabledBackground: | text  | "#f6ca69"  |  Altera a cor de fundo quando desativado |
+|  id: | Text  | "#toggleButton"  | Altera o id do ToggleButton  |
+|  toggleSize: | Number  | 30  | Altera o tamanho do ToggleButton  |
+| dotColor:  |  Text | "#fff"  | Altera a cor do dot do ToggleButton  |
+| activatedBackground:  |  Text | "#192351"  | Altera a cor de fundo quando ativado  |
+|  disabledBackground: | Text  | "#f6ca69"  |  Altera a cor de fundo quando desativado |
 |  textLightDark: | Boolean  | false  |  Adiciona o texto Light e Dark no ToggleButton |
 
 
